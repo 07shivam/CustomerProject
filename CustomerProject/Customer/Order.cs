@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ACM.BL
+namespace CustomerProject.Customer
 {
   public class Order
   {

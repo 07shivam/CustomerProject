@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using CustomerProject.Customer;
+using System.Collections.Generic;
 
-namespace ACM.BL
+namespace CustomerProject.Customer
 {
   public class AddressRepository
   {
@@ -33,6 +34,12 @@ namespace ACM.BL
 
     public IEnumerable<Address> RetrieveByCustomerId(int customerId)
     {
+      // Code that retrieves the defined addresses
+      // for the customer.
+
+
+      // Temporary hard-coded values to return 
+      // a set of addresses for a customer
       var addressList = new List<Address>();
       Address address = new Address(1)
       {
@@ -60,8 +67,13 @@ namespace ACM.BL
       return addressList;
     }
 
+    /// <summary>
+    /// Saves the current address.
+    /// </summary>
+    /// <returns></returns>
     public bool Save(Address address)
     {
+      // Code that saves the passed in address
 
       return true;
     }

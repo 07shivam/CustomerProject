@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ACM.BL
+namespace CustomerProject.Customer
 {
   public class CustomerRepository
   {
@@ -24,8 +24,7 @@ namespace ACM.BL
         customer.EmailAddress = "fbaggins@hobbiton.me";
         customer.FirstName = "Frodo";
         customer.LastName = "Baggins";
-        customer.AddressList = addressRepository.RetrieveByCustomerId(customerId).
-                                    ToList();
+        customer.AddressList = addressRepository.RetrieveByCustomerId(customerId).ToList();
       }
       return customer;
     }

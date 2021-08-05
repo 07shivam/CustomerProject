@@ -1,4 +1,4 @@
-﻿namespace ACM.BL
+﻿namespace CustomerProject.Customer
 {
   public class Product
   {

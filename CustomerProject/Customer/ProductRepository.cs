@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ACM.BL
+namespace CustomerProject.Customer
 {
   public class ProductRepository
   { 
