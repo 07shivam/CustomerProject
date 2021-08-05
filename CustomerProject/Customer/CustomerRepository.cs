@@ -21,9 +21,9 @@ namespace CustomerProject.Customer
 
       if (customerId == 1)
       {
-        customer.EmailAddress = "fbaggins@hobbiton.me";
-        customer.FirstName = "Frodo";
-        customer.LastName = "Baggins";
+        customer.EmailAddress = "shivam.bhargava7@gmail.com";
+        customer.FirstName = "Shivam";
+        customer.LastName = "Bhargava";
         customer.AddressList = addressRepository.RetrieveByCustomerId(customerId).ToList();
       }
       return customer;
